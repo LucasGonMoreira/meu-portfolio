@@ -206,3 +206,18 @@ header .container ul li {
 header .container ul li a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 769px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+}
